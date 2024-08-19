@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('image\ 7.png'); /* Background image specific to each page */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    background-color: black;
+    padding: 10px 20px;
+    margin-bottom: 49%;
+    width: 100%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    gap: 10%;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.container {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.contact-info p, .menu-list p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.contact-info img, .menu-list img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
